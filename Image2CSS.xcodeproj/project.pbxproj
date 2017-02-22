@@ -10,6 +10,8 @@
 		98D52C551E5CD23500A956A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D52C541E5CD23500A956A9 /* AppDelegate.swift */; };
 		98D52C571E5CD23500A956A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D52C561E5CD23500A956A9 /* Assets.xcassets */; };
 		98D52C5A1E5CD23500A956A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D52C581E5CD23500A956A9 /* MainMenu.xib */; };
+		98D52C621E5CD4F200A956A9 /* OutlinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D52C611E5CD4F200A956A9 /* OutlinedView.swift */; };
+		98D52C641E5CDACE00A956A9 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D52C631E5CDACE00A956A9 /* DragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		98D52C561E5CD23500A956A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D52C591E5CD23500A956A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		98D52C5B1E5CD23500A956A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D52C611E5CD4F200A956A9 /* OutlinedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedView.swift; sourceTree = "<group>"; };
+		98D52C631E5CDACE00A956A9 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				98D52C561E5CD23500A956A9 /* Assets.xcassets */,
 				98D52C581E5CD23500A956A9 /* MainMenu.xib */,
 				98D52C5B1E5CD23500A956A9 /* Info.plist */,
+				98D52C611E5CD4F200A956A9 /* OutlinedView.swift */,
+				98D52C631E5CDACE00A956A9 /* DragView.swift */,
 			);
 			path = Image2CSS;
 			sourceTree = "<group>";
@@ -130,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D52C621E5CD4F200A956A9 /* OutlinedView.swift in Sources */,
 				98D52C551E5CD23500A956A9 /* AppDelegate.swift in Sources */,
+				98D52C641E5CDACE00A956A9 /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
